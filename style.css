@@ -1,0 +1,81 @@
+
+*{
+  margin: 0;
+  padding: 0
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+section {
+  margin: auto;
+  padding-top: 5em;
+  display: flex;
+  position: relative;
+  height: 100vh;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.judul2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.col-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper {
+  padding-top: 5em;
+}
+
+h1.promo {
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+
+#promo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(222, 244, 242, 1) 56%, rgba(13, 202, 240, 1) 100%);
+}
+
+#gelombang {
+  position: absolute;
+  bottom: 0;
+}
+
+#jargon:hover {
+  color: #0dcaf0;
+}
+
+footer {
+  padding-top: 6em;
+  background: rgb(13, 202, 240);
+  background: linear-gradient(0deg, rgba(13, 202, 240, 1) 0%, rgba(222, 244, 242, 1) 59%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* ini hover */
+#download:hover {
+  color: #ffffff;
+}
+
+.download {
+  background: rgb(255, 255, 240);
+  background: linear-gradient(0deg, rgba(255, 255, 240, 1) 0%, rgba(13, 202, 240, 1) 53%, rgba(255, 255, 255, 1) 100%);
+}
+
+h1.titled{
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+
